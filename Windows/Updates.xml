@@ -6,11 +6,11 @@
   <Name>com.alif.taif</Name>
   <DisplayName>Taif</DisplayName>
   <Description>Taif Editor for Alif language.</Description>
-  <Version>3.2.2</Version>
+  <Version>3.2.3</Version>
   <ReleaseDate>2026-01-20</ReleaseDate>
   <Default>true</Default>
   <RequiresAdminRights>true</RequiresAdminRights>
-  <UpdateFile CompressedSize="20205149" OS="Any" UncompressedSize="68117431"/>
+  <UpdateFile CompressedSize="20205148" OS="Any" UncompressedSize="68117431"/>
   <DownloadableArchives>alif.7z,examples.7z,generic.7z,iconengines.7z,imageformats.7z,networkinformation.7z,platforms.7z,resources.7z,styles.7z,tls.7z,translations.7z,content.7z</DownloadableArchives>
   <Licenses>
    <License file="license.txt" name="Public License Agreement"/>
@@ -40,8 +40,8 @@
     <!-- Shortcut location (Start Menu) -->
    </Operation>
   </Operations>
-  <SHA1>90f64905dc85fb3862281c38bc9a08dc14bbe311</SHA1>
+  <SHA1>42c705aac25cf41ffce2dfa09890bdcb14b33e81</SHA1>
  </PackageUpdate>
- <SHA1>84147f17a18a59ea12c74559ed27098626d53dca</SHA1>
- <MetadataName>2026-01-29-1400_meta.7z</MetadataName>
+ <SHA1>cdcf9d9288c83dde03ccd15413af22d42a2bb793</SHA1>
+ <MetadataName>2026-01-29-1403_meta.7z</MetadataName>
 </Updates>
