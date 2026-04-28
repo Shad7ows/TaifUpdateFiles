@@ -1,0 +1,41 @@
+<Updates>
+ <ApplicationName>{AnyApplication}</ApplicationName>
+ <ApplicationVersion>1.0.0</ApplicationVersion>
+ <Checksum>true</Checksum>
+ <PackageUpdate>
+  <Name>com.alif.taif</Name>
+  <DisplayName>Taif</DisplayName>
+  <Description>Taif Editor for Alif language.</Description>
+  <Version>3.3.0</Version>
+  <ReleaseDate>2026-05-18</ReleaseDate>
+  <Default>true</Default>
+  <RequiresAdminRights>true</RequiresAdminRights>
+  <UpdateFile CompressedSize="21094183" OS="Any" UncompressedSize="76087159"/>
+  <DownloadableArchives>alif.7z,examples.7z,lib.7z,plugins.7z,resources.7z,translations.7z,content.7z</DownloadableArchives>
+  <Licenses>
+   <License file="license.txt" name="Public License Agreement"/>
+  </Licenses>
+  <Operations>
+   <Operation name="Execute">
+    <Argument>bash</Argument>
+    <Argument>-c</Argument>
+    <Argument>echo export "PATH=@TargetDir@/alif:$PATH" >> ~/.bashrc</Argument>
+    <Argument>source ~/.bashrc</Argument>
+   </Operation>
+   <Operation name="CreateDesktopEntry">
+    <Argument>@HomeDir@/.local/share/applications/Taif.desktop</Argument>
+    <Argument>
+                Type=Application
+                Name=Taif
+                Version=3.3.0
+                Exec=@TargetDir@/Taif
+                Icon=@TargetDir@/resources/TaifLogo.png
+                Terminal=false
+            </Argument>
+   </Operation>
+  </Operations>
+  <SHA1>22342d9c3bc3ea6e151b63d3e76d72d5b95a2f22</SHA1>
+ </PackageUpdate>
+ <SHA1>59109704aa8aec3eb145e4b9c8f9daecd82c5ba2</SHA1>
+ <MetadataName>2026-04-28-1518_meta.7z</MetadataName>
+</Updates>
