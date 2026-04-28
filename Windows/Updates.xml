@@ -10,8 +10,8 @@
   <ReleaseDate>2026-05-18</ReleaseDate>
   <Default>true</Default>
   <RequiresAdminRights>true</RequiresAdminRights>
-  <UpdateFile CompressedSize="19437071" OS="Any" UncompressedSize="66496149"/>
-  <DownloadableArchives>alif.7z,examples.7z,generic.7z,iconengines.7z,imageformats.7z,networkinformation.7z,platforms.7z,styles.7z,tls.7z,translations.7z,content.7z</DownloadableArchives>
+  <UpdateFile CompressedSize="20343122" OS="Any" UncompressedSize="68169971"/>
+  <DownloadableArchives>alif.7z,examples.7z,generic.7z,iconengines.7z,imageformats.7z,networkinformation.7z,platforms.7z,resources.7z,styles.7z,tls.7z,translations.7z,content.7z</DownloadableArchives>
   <Licenses>
    <License file="license.txt" name="Public License Agreement"/>
   </Licenses>
@@ -40,8 +40,8 @@
     <!-- Shortcut location (Start Menu) -->
    </Operation>
   </Operations>
-  <SHA1>3d472dd527d167e7cbce6691b44c830235d622ab</SHA1>
+  <SHA1>028bcc10513ee82a3a157692a3edd76b2e7f7b78</SHA1>
  </PackageUpdate>
- <SHA1>a215d7bcb13bae177bfe15010854fd3703747c8b</SHA1>
- <MetadataName>2026-04-28-1404_meta.7z</MetadataName>
+ <SHA1>8fbff8156a03d8f70e562cae15f2e5368a06b6aa</SHA1>
+ <MetadataName>2026-04-28-1414_meta.7z</MetadataName>
 </Updates>
