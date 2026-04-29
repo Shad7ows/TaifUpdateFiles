@@ -10,7 +10,7 @@
   <ReleaseDate>2026-05-18</ReleaseDate>
   <Default>true</Default>
   <RequiresAdminRights>true</RequiresAdminRights>
-  <UpdateFile CompressedSize="16213001" OS="Any" UncompressedSize="58276037"/>
+  <UpdateFile CompressedSize="16219575" OS="Any" UncompressedSize="58328149"/>
   <DownloadableArchives>examples.7z,Taif.app.7z</DownloadableArchives>
   <Licenses>
    <License file="license.txt" name="Public License Agreement"/>
@@ -28,8 +28,8 @@
     <Argument>ln -sf @TargetDir@/Taif.app ~/Desktop/Taif.app</Argument>
    </Operation>
   </Operations>
-  <SHA1>65595a99b9de06c1e263807679ccb5781f3d7ea1</SHA1>
+  <SHA1>641f41e917032837df23e95d81438669f26e9b65</SHA1>
  </PackageUpdate>
- <SHA1>85cef0a72c69a6d01d52d2a9cfd5e6cef4c31ea6</SHA1>
- <MetadataName>2026-04-29-2322_meta.7z</MetadataName>
+ <SHA1>0480523c472fa2d6bada8fba0f00c095ef246bd3</SHA1>
+ <MetadataName>2026-04-29-2354_meta.7z</MetadataName>
 </Updates>
